@@ -34,7 +34,7 @@ SELECT COUNT(*) AS total_customers
 FROM bank;
 
 -- Insight:
--- The dataset contains 428 customers.
+-- The dataset contains 4521 customers.
 
 
 
@@ -57,7 +57,7 @@ FROM bank
 WHERE y = 'yes';
 
 -- Insight:
--- Around 63 customers subscribed to term deposit.
+-- Around 521 customers subscribed to term deposit.
 
 
 
@@ -68,7 +68,7 @@ SELECT MAX(balance) AS highest_balance
 FROM bank;
 
 -- Insight:
--- The highest account balance is 16873.
+-- The highest account balance is 71188.
 
 
 
@@ -145,7 +145,7 @@ GROUP BY month
 ORDER BY subscription_count DESC;
 
 -- Insight:
--- Certain months like July and August show higher subscriptions.
+-- Certain months like May and August show higher subscriptions.
 
 
 
@@ -196,7 +196,7 @@ AS conversion_rate_percentage
 FROM bank;
 
 -- Insight:
--- The overall conversion rate is around 12%.
+-- The overall conversion rate is around 11%.
 
 
 
